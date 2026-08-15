@@ -1,0 +1,27 @@
+{
+  "name": "git-url-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/main.js src/post.js --bundle --outdir=dist --out-extension:.js=.cjs --platform=node --packages=bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helax-homelab-actions/git-url-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/helax-homelab-actions/git-url-auth/issues"
+  },
+  "homepage": "https://github.com/helax-homelab-actions/git-url-auth#readme",
+  "dependencies": {
+    "@actions/core": "^3.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
